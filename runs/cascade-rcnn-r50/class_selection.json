@@ -1,0 +1,27 @@
+{
+  "source_dataset_dir": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\data\\rcnn_tiled_coco",
+  "all_class_names": [
+    "airbubble",
+    "blackspot",
+    "color-distribution",
+    "dust",
+    "gasbubble",
+    "pockmark",
+    "scratch",
+    "unknown"
+  ],
+  "selected_class_names": [
+    "airbubble",
+    "blackspot",
+    "color-distribution",
+    "dust",
+    "gasbubble",
+    "pockmark",
+    "scratch"
+  ],
+  "include_classes": [],
+  "exclude_classes": [
+    "unknown"
+  ],
+  "filtered_dataset_dir": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\cascade-rcnn-r50\\_filtered_dataset"
+}
