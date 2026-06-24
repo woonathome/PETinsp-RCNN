@@ -1,0 +1,10 @@
+true\pred,airbubble,blackspot,color-distribution,dust,gasbubble,pockmark,scratch,unknown,background
+airbubble,11,0,0,0,0,0,0,0,7
+blackspot,0,46,0,0,0,4,0,0,9
+color-distribution,0,0,18,0,0,0,3,0,7
+dust,0,0,0,40,0,0,1,0,55
+gasbubble,0,0,0,1,5,0,1,0,4
+pockmark,0,4,0,4,0,41,0,0,23
+scratch,0,0,0,4,0,0,33,0,39
+unknown,0,2,0,2,1,21,0,0,272
+background,0,5,3,19,0,6,9,0,0

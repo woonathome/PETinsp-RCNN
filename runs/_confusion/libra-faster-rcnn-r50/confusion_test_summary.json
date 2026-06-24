@@ -1,0 +1,47 @@
+{
+  "dataset_dir": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\data\\rcnn_tiled_coco",
+  "split": "test",
+  "run_dir": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\libra-faster-rcnn-r50",
+  "checkpoint": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\libra-faster-rcnn-r50\\best_coco_bbox_mAP_class_mean_epoch_118.pth",
+  "config": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\libra-faster-rcnn-r50\\resolved_config.py",
+  "device": "cuda:0",
+  "threshold": 0.3,
+  "threshold_mode": "classwise_best_f1",
+  "classwise_threshold_json": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\pr_auc_eval\\libra-faster-rcnn-r50\\pr_curves_test.json",
+  "classwise_threshold_coverage": 7,
+  "iou_threshold": 0.1,
+  "processed_images": 260,
+  "requested_images": 1195,
+  "skipped_missing_image": 0,
+  "skipped_unmapped_prediction": 0,
+  "skipped_gt_only_classes": 935,
+  "skip_gt_only_classes": [
+    "unknown"
+  ],
+  "class_names": [
+    "airbubble",
+    "blackspot",
+    "color-distribution",
+    "dust",
+    "gasbubble",
+    "pockmark",
+    "scratch",
+    "unknown"
+  ],
+  "labels_with_background": [
+    "airbubble",
+    "blackspot",
+    "color-distribution",
+    "dust",
+    "gasbubble",
+    "pockmark",
+    "scratch",
+    "unknown",
+    "background"
+  ],
+  "raw_csv": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\confusion\\libra-faster-rcnn-r50\\confusion_test_raw.csv",
+  "raw_png": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\confusion\\libra-faster-rcnn-r50\\confusion_test_raw.png",
+  "row_norm_png": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\confusion\\libra-faster-rcnn-r50\\confusion_test_row_norm.png",
+  "matched_only_csv": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\confusion\\libra-faster-rcnn-r50\\confusion_test_matched_only_raw.csv",
+  "matched_only_png": "D:\\Youngwoon\\2603 Tester Model (RCNN)\\runs\\confusion\\libra-faster-rcnn-r50\\confusion_test_matched_only_raw.png"
+}
